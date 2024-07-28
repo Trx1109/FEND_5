@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planing</title>
+</head>
+
+<body>
+    <header class="header">
+        Travel Planing
+    </header>
+    <section class="main-content">
+        <form id="form" class="form">
+            <p class="form-title">Let's start your journey</p>
+            <div class="form-control">
+                <label class="form-label" for="location">Location: </label>
+                <input class="form-input" id="location" type="text" required />
+            </div>
+            <div class="form-control">
+                <label class="form-label" for="date">Date: </label>
+                <input class="form-input" id="date" type="date" required />
+            </div>
+            <div class="form-control">
+                <label class="form-error" id="error"></label>
+            </div>
+            <button class="form-btn" type="submit">Generate</button>
+        </form>
+        <div id="result-content" class="result-content">
+        </div>
+    </section>
+
+    <footer class="footer">
+        Copyright 2024
+    </footer>
+</body>
+
+</html>

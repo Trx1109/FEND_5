@@ -1,0 +1,37 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.header {
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 16px;
+    border-bottom: 1px solid salmon;
+    background-color: rgba($color: #eeeeee, $alpha: 1);
+}
+
+.main-content {
+    padding: 16px;
+    background-image: url("/src/client/asset/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-grow: 1;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eeeeee;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba($color: #111111, $alpha: 1.0);
+}
