@@ -1,37 +1,58 @@
 body {
-    padding: 0 !important;
-    margin: 0 !important;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 .header {
-    position: sticky;
-    top: 0;
-    font-size: 30px;
-    font-weight: 700;
-    font-style: italic;
-    padding: 16px;
-    border-bottom: 1px solid salmon;
-    background-color: rgba($color: #eeeeee, $alpha: 1);
+  position: sticky;
+  top: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 16px;
+  border-bottom: 1px solid salmon;
+  background-color: rgba($color: #eeeeee, $alpha: 1);
 }
 
 .main-content {
-    padding: 16px;
-    background-image: url("/src/client/asset/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    flex-grow: 1;
+  padding: 16px;
+  background-image: url("/src/client/asset/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-grow: 1;
 }
 
 .footer {
-    margin-top: auto;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #eeeeee;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: rgba($color: #111111, $alpha: 1.0);
+  margin-top: auto;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eeeeee;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgba($color: #111111, $alpha: 1);
+}
+/* Example Button Styling */
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover Effect for Button */
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
